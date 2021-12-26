@@ -1,0 +1,22 @@
+a=1
+while [ $a == "1" ]
+do
+      echo " Menu "
+      echo "1. Greatest number."
+      echo "2. fibonacci number."
+      echo "3. factorial number."
+      echo "4. palindrome number."
+      echo "5. exit."
+      read n
+
+      case "$n" in 
+            1) ./greatest.sh ;;
+            2) ./fibo.sh ;;
+            3) ./fact.sh ;;
+            4) ./pal.sh ;;
+            5) exit
+ ;;
+    ease
+
+done
+
